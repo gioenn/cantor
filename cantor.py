@@ -5,8 +5,8 @@ def cantor_pairing(x, y):
     return (x+y)*(x+y+1)/2 + y
 
 def cantor_pairing_inv(n):
-    w = math.floor((math.sqrt(8*n + 1) - 1)/2)
-    t = (w*w + w) / 2
+    w = math.floor((math.sqrt(8*n + 1)- 1)/2)
+    t = (w*w + w)/2
     y = int(n-t)
     x = int(w-y)
     return (x, y)
