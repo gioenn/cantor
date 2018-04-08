@@ -5,7 +5,8 @@ import math
 def q_encode(x, y):
     x = z_encode(x)-1
     y = z_encode(y)-1
-    return (x+y)*(x+y+1)/2 + y + 1
+    res = (x+y)*(x+y+1)/2 + y + 1
+    return int(res)
 
 ''' N -> Q (cantor inverse pairing function)'''
 def q_decode(n):
