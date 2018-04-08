@@ -1,5 +1,8 @@
-A Python implementation of the [pairing function](https://en.wikipedia.org/wiki/Pairing_function)
+A Python library to encode pairs or integers with natural numbers. Unlike other available implementations it supports pairs with negative values.
+
+It uses a slighty modified version of the [pairing function](https://en.wikipedia.org/wiki/Pairing_function)
 that Georg Cantor used in 1873 to prove that the sets of natural, integer and rational numbers have the same cardinality.
+
 
 #### PREREQUISITES
 
