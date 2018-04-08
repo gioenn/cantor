@@ -1,5 +1,3 @@
-#!/usr/bin/env python
-
 from cantor import *
 
 def test_q(a, b):
@@ -10,7 +8,7 @@ def test_z(z):
     assert z_decode(z_encode(z)) == z
     return z_encode(z)
 
-def run_tests():
+def run():
     for i in range(2**10):
         test_q(i , i)
         test_q(i, -i)
@@ -54,8 +52,8 @@ def run_tests():
     except ValueError:
         pass
 
-    return "Tests pass."
+    return "Ok"
 
 
 if __name__ == '__main__':
-    print(run_tests())
+    print(run())

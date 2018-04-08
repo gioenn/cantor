@@ -1,14 +1,14 @@
 import sys
 import math
 
-'''Q -> N (cantor pairing function)'''
+''' Q -> N (cantor pairing function) '''
 def q_encode(x, y):
     x = z_encode(x)-1
     y = z_encode(y)-1
     res = (x+y)*(x+y+1)/2 + y + 1
     return int(res)
 
-''' N -> Q (cantor inverse pairing function)'''
+''' N -> Q (cantor inverse pairing function) '''
 def q_decode(n):
     if n <= 0:
         raise ValueError("input must be a natural number")
