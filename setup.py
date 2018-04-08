@@ -2,7 +2,7 @@ from distutils.core import setup
 setup(
   name = 'cantor',
   packages = ['cantor'], # this must be the same as the name above
-  version = '1.0.1',
+  version = '1.0.0',
   description = 'See https://github.com/gioenn/cantor',
   author = 'Giovanni Quattrocchi',
   author_email = 'giovanniquattrocchi@me.com',
